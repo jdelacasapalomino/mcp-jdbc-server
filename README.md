@@ -48,6 +48,15 @@ jdbc.password=dba
 jdbc.api_key=xxx
 ```
 
+For AWS RDS:
+```
+jdbc.url=jdbc:aws-wrapper:mysql://aws-rds-instance-endpoint/mydatabase
+jdbc.user=username
+AWS_REGION=us-east-1
+AWS_PROFILE=default
+```
+Note: AWS credentials are expected to be already set in .aws/credentials file.
+
 ---
 
 ## Configuration

@@ -26,6 +26,11 @@ dependencies {
 
     implementation 'com.openlinksw:virtjdbc4_3:3.123'
 
+    // Default drivers + IAM auth
+    implementation 'com.mysql:mysql-connector-j:9.5.0'
+    implementation 'software.amazon.jdbc:aws-advanced-jdbc-wrapper:3.0.0'
+    implementation 'software.amazon.awssdk:rds:2.41.5'
+
     testImplementation 'io.quarkus:quarkus-junit5'
 }
 
